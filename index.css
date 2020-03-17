@@ -1,0 +1,16 @@
+
+
+h1{
+    color: blue;
+    background: red
+}
+
+ol li, p{
+    background-color: red;
+    
+}
+
+.top h1, h2, h3 {
+    background-color: gray;
+    border: 1px solid black;
+}
