@@ -46,3 +46,8 @@ body {
     padding: 80px;
 }
 
+.skill-card img{
+    width: auto;
+    height: 300px;
+}
+
