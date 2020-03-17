@@ -1,16 +1,48 @@
-
-
-h1{
-    color: blue;
-    background: red
+* {
+    margin: 0px;
+    padding: 0px;
 }
 
-ol li, p{
-    background-color: red;
-    
+body {
+    text-align: center;
+}
+.header {
+    height: 100px;
+    /* background-color: red; */
+}
+.header h1 {
+    padding: 10px;
 }
 
-.top h1, h2, h3 {
+.picture {
+    height: 300px;
     background-color: gray;
-    border: 1px solid black;
 }
+
+.picture img {
+    border-radius: 50%;
+}
+
+.about-me {
+    height: 150px;
+    /* background-color: red; */
+}
+
+.about-me2 {
+    width: 50%;
+    /* background-color: rosybrown; */
+    margin: 0 auto;
+}
+/* .about-me2 h2, p {
+    text-align: center; */
+
+.skill{
+    display: flex;
+}
+
+.skill-card{
+    border: 1px solid black;
+    margin: 50px;
+    padding: 80px;
+}
+
