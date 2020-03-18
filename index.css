@@ -5,13 +5,15 @@
 
 body {
     text-align: center;
-    font-family: 'Bellota Text', cursive;   
+    font-family: 'Bellota Text', cursive;
 }
+
 .header {
     height: 100px;
     font-size: 22px;
     /* background-color: red; */
 }
+
 .header h1 {
     padding: 10px;
 }
@@ -35,18 +37,19 @@ body {
     /* background-color: rosybrown; */
     margin: 0 auto;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 15px;    
+    font-size: 15px;
     height: 100px;
 }
+
 /* .about-me2 h2, p {
     text-align: center; */
 
-.skill{
+.skill {
     display: flex;
     justify-content: center;
 }
 
-.skill-card{
+.skill-card {
     border: 1px solid black;
     margin: 25px;
     padding: 1px;
@@ -54,10 +57,27 @@ body {
     height: 450px;
 }
 
-.skill-card img{
+.skill-card img {
     width: 300px;
     height: 250px;
 }
-.skill-card li{
+
+.skill-card li {
     text-align: initial;
+}
+
+.footer {
+    font-size: 30px;
+}
+
+/* Use a media query to add a breakpoint at 800px: */
+
+@media screen and (max-width: 800px) {
+    .skill {
+        display: flex;
+        flex-wrap: wrap;
+        height: 1000px;
+        align-items: center;
+        justify-content: center;
+    }
 }
